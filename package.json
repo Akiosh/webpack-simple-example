@@ -1,0 +1,22 @@
+{
+  "name": "webpack-simple-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akiosh/webpack-simple-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Akiosh/webpack-simple-example/issues"
+  },
+  "homepage": "https://github.com/Akiosh/webpack-simple-example#readme"
+}
