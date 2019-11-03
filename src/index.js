@@ -1,13 +1,22 @@
 import _ from 'lodash';
 import './style.css';
+import printMe from './print.js';
 
 function component() {
-    const element = document.createElement('div');
+    const wrapper = document.createElement('div');
+    
+    const info = document.createElement('div');
+    const btn = document.createElement('button');
 
-    element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-    element.classList.add('hello');
+    info.innerHTML = _.join(['Hello', 'webpack'], ' ');
+    info.classList.add('hello');
 
-    return element;
+    btn.innerHTML = 'Click me and check the console!';
+    btn.onclick = printMe;
+
+    wrapper.appendChild(btn);
+    wrapper.appendChild(info);
+    return wrapper;
 }
 
 document.body.appendChild(component());
